@@ -4,11 +4,20 @@
     margin: 50px 0 0 0;
     padding: 20px 0;
     color: white;
+    font-size: 15px;
     background-color: var(--secondary-color);
+
+    h2 {
+        font-size: 20px;
+    }
 
     .copy_right {
         text-align: center;
         padding: 1em;
+
+        p {
+            font-size: 13px;
+        }
     }
 
     @media (max-width: 768px) {
