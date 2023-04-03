@@ -1,8 +1,8 @@
-import { axios_hostel } from "@/axios.config";
+import { axios_rav } from "@/axios.config";
 
 export const useFetch = (endpoint: string) => {
   try {
-    axios_hostel.get(endpoint).then((response) => {
+    axios_rav.get(endpoint).then((response) => {
       return response.data;
     });
   } catch (error) {
