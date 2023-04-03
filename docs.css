@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: #0b2cc5;
+  --secondary-color: #ffecaf;
+  --white: #ffffff;
+  --cream-color: #eee3d9;
+  --border: 1px solid #ccc;
+  --shadow: 0 1px;
+}
+
+/* Second Option Variables */
+
+:root {
+  --primary-color: #14155e;
+  --secondary-color: #c3f7ff;
+  --text-color: #14165d;
+  --white: #ffffff;
+  --border: 1px solid #ccc;
+  --shadow: 0 1px;
+  --cream-color: #eee3d9;
+  --dark-cream-color: #fed5af;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 500;
+  font-family: "Lateef", serif;
+  background-color: var(--cream-color);
+}
+
+h1 {
+  font-size: 50px;
+}
