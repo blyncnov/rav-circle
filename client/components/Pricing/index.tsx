@@ -52,7 +52,7 @@ const PricingCard = ({ tainted, PricingDetails }: any) => {
             <h4>Package Includes:</h4>
             <ul>
               {PricingDetails.details.map((data: string) => {
-                return <li>{data}</li>;
+                return <li key={data}>{data}</li>;
               })}
             </ul>
           </div>
